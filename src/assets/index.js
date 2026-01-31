@@ -29,7 +29,7 @@ import webss from "./projects/webss.png";
 import combined from "./projects/combined.png";
 import tSNE from "./projects/t-SNE.png";
 import BMSystem from "./projects/BMSystem.png";
-import clothing from "./projects/clothing.png";
+import clothing from "./projects/Clothing.png";
 
 
 // Import tech logos
