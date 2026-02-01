@@ -25,7 +25,7 @@ const Hero = () => {
             I specialize in
             <Typewriter
               options={{
-                strings: ["Data Science", "ML Model Development", "Data Analytics", "Web Development"],
+                strings: ["Data Science", "Machine Learning", "Model Development", "Data Analytics", "Web Development"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,
