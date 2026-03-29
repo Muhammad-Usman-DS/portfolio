@@ -38,6 +38,7 @@ import {
   Supa,
   BMSystem,
   tSNE,
+  ff
 } from "../assets";
 
 export const navLinks = [
@@ -94,6 +95,18 @@ export const technologies = [
 ];
 
 export const experiences = [
+  {
+    title: "Sales Consultant – Residential Solar Solutions",
+    company_name: "Firefly Solar | Solar Energy Services",
+    icon: ff,
+    iconBg: "white",
+    date: "Aug 2025 - Oct 2025",
+    points: [
+      "Generated approximately $125,000 to $150,000 in monthly contract value by closing an average of 5 residential solar system sales per month, with each project valued at roughly $25,000 to $30,000.",
+      "Contributed an estimated $375,000 to $450,000 in total contract value over a 3 month period through consistent sales performance and customer engagement.",
+      "Conducted consultative sales conversations with homeowners, explaining solar system benefits, long term cost savings, installation timelines, and return on investment in a clear and persuasive way."
+    ],
+  },
   {
     title: "Data Analyst Co-op Intern",
     company_name: "PowerHouse | Data Centre Group",
