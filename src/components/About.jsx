@@ -33,46 +33,40 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Who I Am and What I Build</p>
-        <h2 className={styles.sectionHeadText}>Turning Data into Decisions</h2>
+        <h2 className={styles.sectionHeadText}>Turning Insights into Action</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a data focused problem solver with a strong foundation in statistics, machine
-        learning, and applied analytics. I specialize in transforming complex data into meaningful
-        insights, predictive models, and decision ready outputs.
+        I am a problem solver with a strong foundation in data analysis, business thinking, 
+        and client communication. I enjoy understanding needs, identifying the right solution, 
+        and turning information into practical action that creates value.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.2, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        My work spans the full data science workflow, including data cleaning, exploratory analysis,
-        feature engineering, and modeling. I regularly use Python, pandas, NumPy, scikit learn, SQL,
-        and visualization tools such as Power BI, matplotlib, and seaborn to analyze data and clearly
-        communicate results.
+        Alongside my analytical experience, I have built strong sales experience in client facing roles where communication, resilience, and results matter. 
+        I am comfortable understanding customer needs, explaining value clearly, building trust, and contributing to business growth.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I completed a data analysis internship at a data center company, where I worked with
-        operational and performance data to identify trends, improve reporting accuracy, and
-        support data driven decisions. Alongside this experience, I have built end to end projects
-        involving ETL pipelines, statistical analysis, and machine learning models, with a strong
-        focus on clarity and real world relevance.
+        This mix of data skills and sales experience allows me to work well in both technical and business focused environments. 
+        I bring analytical thinking, strong communication, and a results driven mindset to every opportunity.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am seeking a Data Scientist or Data Analyst
-        role where I can apply analytical thinking and machine learning techniques to solve
-        impactful problems.
+        I am seeking opportunities where I can combine problem solving, 
+        relationship building, and business impact in sales, client facing, or data informed roles.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
