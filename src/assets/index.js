@@ -2,6 +2,8 @@
 import telus from "./company/telus.png";
 import iyyc from "./company/iyycburg.png";
 import ph from "./company/ph.png";
+import ff from "./company/ff.png";
+
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -100,4 +102,5 @@ export {
   BMSystem,
   tSNE,
   clothing,
+  ff
 };
