@@ -32,6 +32,7 @@ import combined from "./projects/combined.png";
 import tSNE from "./projects/t-SNE.png";
 import BMSystem from "./projects/BMSystem.png";
 import clothing from "./projects/Clothing.png";
+import churniq from "./projects/churniq.png";
 
 
 // Import tech logos
@@ -102,5 +103,6 @@ export {
   BMSystem,
   tSNE,
   clothing,
+  churniq,
   ff
 };

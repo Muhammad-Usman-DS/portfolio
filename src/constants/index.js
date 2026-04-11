@@ -38,6 +38,7 @@ import {
   Supa,
   BMSystem,
   tSNE,
+  churniq,
   ff
 } from "../assets";
 
@@ -146,6 +147,22 @@ export const experiences = [
 
 export const projects = [
 
+  {
+    name: "ChurnIQ – Telco Customer Churn Prediction",
+    description:
+      "A full-stack machine learning application that predicts telco customer churn probability using demographic and service data. Features include single and bulk predictions, prediction history, insights dashboard, and a what-if mode for real-time re-prediction as inputs change.",
+    tags: [
+      { name: "Machine Learning", color: "blue-text-gradient" },
+      { name: "Churn Prediction", color: "green-text-gradient" },
+      { name: "Full-stack Web App", color: "green-text-gradient" },
+      { name: "Docker", color: "pink-text-gradient" },
+      { name: "MLflow", color: "blue-text-gradient" },
+      { name: "FastAPI", color: "green-text-gradient" },
+    ],
+    image: churniq,
+    source_code_link: "https://github.com/Muhammad-Usman-DS/Customer-churn---Senior-Proj",
+    live_demo_link: "https://customer-churn-senior-proj.vercel.app/",
+  },
   {
     name: "Data Science Career and Compensation",
     description:
