@@ -67,16 +67,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        "service_q7xz3m9",
+        "template_76bnjqb",
         {
-          from_name: form.name,
-          to_name: "Lohit Kolluri",
-          from_email: form.email,
-          to_email: "lohitkolluri@gmail.com",
+          name: form.name,
+          email: form.email,
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        "gwzE1PyLN7OSvgZBG"
       )
       .then(
         () => {
