@@ -114,7 +114,7 @@ const Works = () => {
         >
           <p className="text-secondary text-[15px] leading-[26px]">
             Additional projects are currently in development and scheduled for
-            completion by <span className="text-white font-medium">May 2026</span>,
+            completion by <span className="text-white font-medium">Nov 2026</span>,
             with a focus on <span className="text-white">NLP</span>,{" "}
             <span className="text-white">advanced machine learning</span>, and{" "}
             <span className="text-white">model deployment</span>.
