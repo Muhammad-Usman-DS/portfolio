@@ -59,15 +59,27 @@ const About = () => {
         </ul>
       </motion.p>
 
-      <motion.p
+     <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-          My most comprehensive project is an end-to-end telecom customer churn
-          prediction system. I developed the complete ML workflow, from data validation
-          and feature engineering to model optimization and deployment. The final
-          XGBoost model achieved 82.1% recall and was deployed through a FastAPI backend
-          and React application, supported by Docker, MLflow, and GitHub Actions.
+        My most comprehensive project is{" "}
+        <a
+          href="https://customer-churn-senior-proj.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold text-white hover:text-[#915EFF] transition-colors"
+        >
+          ChurnIQ
+        </a>
+        , an end-to-end machine learning application that identifies telecom
+        customers at risk of churning. I built the complete ML pipeline, including
+        data validation, feature engineering, model comparison, hyperparameter
+        tuning, experiment tracking, and deployment. Its optimized{" "}
+        <span className="font-semibold text-white">XGBoost model</span> achieved{" "}
+        <span className="font-semibold text-white">82.1% recall</span> and is served
+        through a FastAPI backend and React interface, with Docker, MLflow, and
+        GitHub Actions supporting deployment and automation.
       </motion.p>
 
       <motion.p
