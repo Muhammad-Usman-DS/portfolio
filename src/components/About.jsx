@@ -33,40 +33,60 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Who I Am and What I Build</p>
-        <h2 className={styles.sectionHeadText}>Turning Insights into Action</h2>
+        <h2 className={styles.sectionHeadText}>Turning Data into Practical Solutions</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a problem solver with a strong foundation in data analysis, business thinking, 
-        and client communication. I enjoy understanding needs, identifying the right solution, 
-        and turning information into practical action that creates value.
+        I am a data scientist with a background in computer information systems. I
+        enjoy investigating complex problems and developing reliable, data-driven
+        solutions.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.2, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Alongside my analytical experience, I have built strong sales experience in client facing roles where communication, resilience, and results matter. 
-        I am comfortable understanding customer needs, explaining value clearly, building trust, and contributing to business growth.
+        <p>My strengths include:</p>
+
+        <ul className="mt-2 ml-6 list-disc space-y-1">
+          <li>Statistical analysis and machine learning</li>
+          <li>Python, R, SQL, and Power BI</li>
+          <li>Data preparation, modelling, evaluation, and deployment</li>
+          <li>Communicating findings to technical and nontechnical audiences</li>
+        </ul>
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        This mix of data skills and sales experience allows me to work well in both technical and business focused environments. 
-        I bring analytical thinking, strong communication, and a results driven mindset to every opportunity.
+          My most comprehensive project is an end-to-end telecom customer churn
+          prediction system. I developed the complete ML workflow, from data validation
+          and feature engineering to model optimization and deployment. The final
+          XGBoost model achieved 82.1% recall and was deployed through a FastAPI backend
+          and React application, supported by Docker, MLflow, and GitHub Actions.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am seeking opportunities where I can combine problem solving, 
-        relationship building, and business impact in sales, client facing, or data informed roles.
+        My client-facing sales experience has strengthened my ability to understand
+        customer needs, communicate value, build trust, and perform in results-driven
+        environments. I bring this combination of technical thinking and business
+        awareness to every problem I work on.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.5, 1)}
+        className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        I am seeking research and data science opportunities where I can explore
+        meaningful questions, build practical solutions, and turn evidence into
+        better decisions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
