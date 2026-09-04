@@ -17,8 +17,16 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Syed Usman</span>
           </h1>
-          <p className="mt-3 text-[18px] sm:text-[20px] text-secondary font-medium">
-            Data Scientist | Machine Learning | Applied Research
+          <p className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[18px] sm:text-[20px] font-semibold">
+            <span className="text-white">Data Scientist</span>
+            <span aria-hidden="true" className="font-bold text-[#915EFF]">
+              |
+            </span>
+            <span className="text-white">Machine Learning</span>
+            <span aria-hidden="true" className="font-bold text-[#915EFF]">
+              |
+            </span>
+            <span className="text-white">Applied Research</span>
           </p>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
