@@ -18,14 +18,14 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Syed Usman</span>
           </h1>
           <p className="mt-3 text-[18px] sm:text-[20px] text-secondary font-medium">
-            Data, Research, and Client Focused Solutions
+            Data Scientist | Machine Learning | Applied Research
           </p>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I specialize in
             <Typewriter
               options={{
-                strings: ["Data Science", "Machine Learning", "Web Application Development", "Sales and Relationship Building"],
+                strings: ["Data Science", "Machine Learning", "Statistical Analysis", "End-to-End ML Development"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,
