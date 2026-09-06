@@ -53,7 +53,7 @@ const About = () => {
 
         <ul className="mt-2 ml-6 list-disc space-y-1">
           <li>Statistical analysis and machine learning</li>
-          <li>Python, R, SQL, and Power BI</li>
+          <li>Python, R, and SQL</li>
           <li>Data preparation, modelling, evaluation, and deployment</li>
           <li>Communicating findings to technical and nontechnical audiences</li>
         </ul>
